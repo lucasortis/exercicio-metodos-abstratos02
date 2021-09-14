@@ -14,7 +14,7 @@ namespace MetodoAbstratoDois.Entities
 
         public override double TaxesPaid()
         {
-            if (AnualIncome < 200000 )
+            if (AnualIncome < 20000 )
             {
                 return (AnualIncome * 0.15) - (HealthExpenditures * 0.5);
             } 
